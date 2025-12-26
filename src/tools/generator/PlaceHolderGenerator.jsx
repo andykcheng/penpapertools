@@ -134,8 +134,6 @@ const PlaceHolderGenerator = () => {
 
   return (
     <div className="tool-container">
-      <h2>Placeholder Generator</h2>
-
       <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 20 }}>
         <div style={{ minWidth: 280, flex: 1 }}>
           <label style={{ display: 'block', marginBottom: 6 }}>Width (px)</label>

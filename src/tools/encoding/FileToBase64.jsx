@@ -46,8 +46,6 @@ const FileToBase64 = () => {
 
   return (
     <div className="tool-container">
-      <h2>File to Base64</h2>
-      
       <div style={{ marginBottom: '20px' }}>
         <label style={{ display: 'block', marginBottom: '5px' }}>Select File:</label>
         <input 

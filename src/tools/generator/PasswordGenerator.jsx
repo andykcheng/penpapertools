@@ -148,8 +148,6 @@ const PasswordGenerator = () => {
 
   return (
     <div className="tool-container">
-      <h2>Password Generator</h2>
-
       <div style={{ marginBottom: 20, display: 'flex', gap: 20, flexWrap: 'wrap' }}>
         <div style={{ minWidth: 260, flex: 1 }}>
           <label style={{ display: 'block', marginBottom: 6 }}>Length</label>

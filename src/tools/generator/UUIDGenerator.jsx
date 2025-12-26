@@ -60,8 +60,6 @@ const UUIDGenerator = () => {
 
   return (
     <div className="tool-container">
-      <h2>UUID Generator</h2>
-      
       <div style={{ marginBottom: '20px', display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
         <div>
           <label style={{ display: 'block', marginBottom: '5px' }}>Version:</label>

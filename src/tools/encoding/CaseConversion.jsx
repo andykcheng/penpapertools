@@ -63,8 +63,6 @@ const CaseConversion = () => {
 
   return (
     <div className="tool-container">
-      <h2>Case Converter</h2>
-      
       <div style={{ marginBottom: '20px' }}>
         <label style={{ display: 'block', marginBottom: '5px' }}>Input Text:</label>
         <textarea

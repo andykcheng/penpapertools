@@ -82,8 +82,6 @@ const Base64ToFile = () => {
 
   return (
     <div className="tool-container">
-      <h2>Base64 to File</h2>
-      
       <div style={{ marginBottom: '20px' }}>
         <label style={{ display: 'block', marginBottom: '5px' }}>Base64 String:</label>
         <textarea

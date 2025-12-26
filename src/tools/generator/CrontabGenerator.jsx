@@ -113,8 +113,6 @@ const CrontabGenerator = () => {
 
   return (
     <div className="tool-container">
-      <h2>Crontab Generator</h2>
-
       <div style={{ marginBottom: '20px', padding: '20px', backgroundColor: '#f8f9fa', borderRadius: '8px', border: '1px solid #e9ecef' }}>
         <div style={{ fontSize: '1.2em', marginBottom: '10px', fontFamily: 'monospace', fontWeight: 'bold', display: 'flex', gap: '10px' }}>
           <input 

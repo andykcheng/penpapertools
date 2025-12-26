@@ -118,8 +118,6 @@ const ChartGenerator = () => {
 
   return (
     <div className="tool-container">
-      <h2>Chart Generator</h2>
-      
       <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', marginBottom: '20px' }}>
         <div style={{ flex: 1, minWidth: '250px' }}>
           <div style={{ marginBottom: '15px' }}>

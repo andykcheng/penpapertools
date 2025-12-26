@@ -179,8 +179,6 @@ const QRCodeGenerator = () => {
 
   return (
     <div className="tool-container">
-      <h2>QR Code Generator</h2>
-      
       <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', marginBottom: '20px' }}>
         <div style={{ flex: 1, minWidth: '300px' }}>
           <div style={{ marginBottom: '15px' }}>

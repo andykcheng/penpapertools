@@ -65,8 +65,6 @@ const Utf8ToBase64 = () => {
 
   return (
     <div className="tool-container">
-      <h2>Text to Base64</h2>
-      
       <div style={{ marginBottom: '20px' }}>
         <div style={{ marginBottom: '10px' }}>
           <select onChange={loadExample} style={{ padding: '5px' }}>
