@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
           <Route path="category/:categoryId" element={<CategoryPage />} />
-          <Route path="tool/:categoryId/:toolId" element={<ToolPage />} />
+          <Route path="tools/:categoryId/:toolId" element={<ToolPage />} />
         </Route>
       </Routes>
     </HashRouter>

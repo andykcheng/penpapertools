@@ -15,6 +15,7 @@ const TOOLS = [
   { id: 'base64-to-file', name: 'Base64 to File', description: 'Convert Base64 string to file download', category: 'encoding' },
   { id: 'url-encoding', name: 'URL Encoder/Decoder', description: 'Encode or decode URL strings', category: 'encoding' },
   { id: 'case-conversion', name: 'Case Converter', description: 'Convert text between different cases', category: 'encoding' },
+  { id: 'number-conversion', name: 'Number Conversion', description: 'Convert numbers to binary/hex/octal and view IEEE-754 bits', category: 'encoding' },
 
   // Encryption
   { id: 'aes-encryption', name: 'AES Encryption', description: 'Encrypt and decrypt text using AES-GCM', category: 'encryption' },
@@ -32,6 +33,8 @@ const TOOLS = [
   // Time
   { id: 'time-parser', name: 'Time Parser', description: 'Parse timestamps and date strings', category: 'time' },
   { id: 'time-display', name: 'Current Time', description: 'Display current time in various formats', category: 'time' },
+  { id: 'count-days-weeks', name: 'Count Days & Weeks', description: "Show ISO week number and the week's days for a given date", category: 'time' },
+  
 
   // Misc
   { id: 'flex-visualizer', name: 'Flexbox Visualizer', description: 'Visualize CSS Flexbox properties', category: 'misc' },

@@ -17,7 +17,7 @@ const CategoryPage = () => {
       <p>{category.description}</p>
       <div className="tools-grid">
         {category.tools.map(tool => (
-          <Link key={tool.id} to={`/tool/${category.id}/${tool.id}`} className="tool-card">
+          <Link key={tool.id} to={`/tools/${category.id}/${tool.id}`} className="tool-card">
             <h3>{tool.name}</h3>
             <p>{tool.description}</p>
           </Link>
